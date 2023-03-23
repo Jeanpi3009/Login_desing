@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <div class="container" id="container">
+
+
+        <div class="form-container register-container">
+            <form action="#">
+                <h1>Registrate aqui</h1>
+                <input type="text" placeholder="Nombre">
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Contraseña">
+                <button>Registrar</button>
+                <span>O usa tu cuenta</span>
+                <div class="social-container">
+                    <a href="#" class="social"><i class="lni lni-facebook-fill"></i></a>
+                    <a href="#" class="social"><i class="lni lni-google"></i></a>
+                    <a href="#" class="social"><i class="lni lni-linkedin-original"></i></a>
+                </div>
+            </form>
+        </div>
+
+        <div class="form-container login-container">
+            <form action="#">
+                <h1>Logueate aqui</h1>
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Contraseña">
+                <div class="content">
+                    <div class="checkbox">
+                        <input type="checkbox" name="checkbox" id="checkbox">
+                        <label>Recuerdame</label>
+                    </div>
+                    <div class="pass-link">
+                        <a href="#">¿Olvidó la contraseña?</a>
+                    </div>
+                </div>
+                <button>Logueate</button>
+                <span>O usa tu cuenta</span>
+                <div class="social-container">
+                    <a href="#" class="social"><i class="lni lni-facebook-fill"></i></a>
+                    <a href="#" class="social"><i class="lni lni-google"></i></a>
+                    <a href="#" class="social"><i class="lni lni-linkedin-original"></i></a>
+                </div>
+            </form>
+        </div>
+
+        <div class="overlay-container">
+            <div class="overlay">
+                <div class="overlay-panel overlay-left">
+                    <h1 class="title">Hola <br> amigos</h1>
+                    <p>Si tienes cuenta, inicia sesión aquí y diviértete</p>
+                    <button class="gost" id="login">Logueate
+                        <i class="lni lni-arrow-left login"></i>
+                    </button>
+                </div>
+                <div class="overlay-panel overlay-right">
+                    <h1 class="title">Comienza tu <br> viaje ahora</h1>
+                    <p>Si aún no tiene una cuenta, únase a nosotros y comience sus compras</p>
+                    <button class="gost" id="register">Registrar
+                        <i class="lni lni-arrow-right register"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
